@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Identity.Client;
+using my_books.ActionResults;
+using my_books.Data.Models;
 using my_books.Data.Services;
 using my_books.Data.ViewModel;
 using my_books.Exceptions;
@@ -52,12 +54,41 @@ namespace my_books.Controllers
         }
 
         [HttpGet("get-publisher-by-id/{id}")]
+        //public CusotmActionResult GetPublisherById(int id)
+        //{
+        //    //throw new Exception("This is an Exception that will be handled by middleware");
+
+        //    var _response = _publishersService.GetPublisherById(id);
+        //    if(_response != null)
+        //    {
+        //        // return Ok(_response);
+
+        //        var _responseObj = new CustomActionResultVM()
+        //        {
+        //            Publisher = _response,
+        //        };
+        //        return new CusotmActionResult(_responseObj);
+
+        //    }
+        //    else
+        //    {
+        //        //return NotFound();
+
+        //        var _responseObj = new CustomActionResultVM()
+        //        {
+        //            Exception = new Exception("This is coming from publisher Controller"),
+        //        };
+
+        //        return new CusotmActionResult(_responseObj);
+
+        //    }
+        //}
+
         public IActionResult GetPublisherById(int id)
         {
-            //throw new Exception("This is an Exception that will be handled by middleware");
-
             var _response = _publishersService.GetPublisherById(id);
-            if(_response != null)
+
+            if (_response != null)
             {
                 return Ok(_response);
             }
