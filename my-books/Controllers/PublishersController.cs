@@ -118,6 +118,26 @@ namespace my_books.Controllers
             }
 
         }
+
+        //Using for Sorting filtering and pagination
+
+        [HttpGet("get-all-publishers")]
+
+        public IActionResult GetAllPublishers(string sortBy,string searchString,int pageNumber)
+        {
+            try
+            {
+                var _result = _publishersService.GetAllPublishers(sortBy,searchString,pageNumber);
+
+                return Ok(_result);
+            }
+            catch (Exception ex)
+            {
+
+                return BadRequest("sorry, we could not load the publishers");
+            }
+
+        }
         
     }
 }
