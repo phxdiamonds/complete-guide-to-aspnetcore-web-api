@@ -4,6 +4,8 @@ using System.Reflection;
 using Microsoft.EntityFrameworkCore;
 using my_books.Data.Services;
 using my_books.Exceptions;
+using Asp.Versioning;
+using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,12 +18,22 @@ builder.Services.AddDbContext<AppDbContext>(option => option.UseSqlServer(@"Data
 builder.Services.AddTransient<BooksServices>();
 builder.Services.AddTransient<AuthorsService>();
 builder.Services.AddTransient<PublishersService>();
+builder.Services.AddApiVersioning(config =>
+{
+    config.DefaultApiVersion = new ApiVersion(1,0);
+    config.AssumeDefaultVersionWhenUnspecified = true;
+    //config.ApiVersionReader = new HeaderApiVersionReader("custom-version-header");  //for custom header
+    //config.ApiVersionReader = new MediaTypeApiVersionReader(); //for custom media type
+});
+Log.Logger = new LoggerConfiguration().CreateLogger(); //for logging
+
 builder.Services.AddSwaggerGen(c=>
 {
     c.SwaggerDoc("v2", new OpenApiInfo { Title = "my_books_updated_title", Version = "v2" });
 });
 
 var app = builder.Build();
+app.UseSerilogRequestLogging();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
