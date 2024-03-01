@@ -1,6 +1,4 @@
-﻿using Asp.Versioning;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 
 namespace my_books.Controllers.v1
 {

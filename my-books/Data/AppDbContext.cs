@@ -22,6 +22,8 @@ namespace my_books.Data
             //Here we have defined the relationship between the author and the book author
 
             modelBuilder.Entity<Book_Author>().HasOne(b => b.Author).WithMany(ba => ba.Book_Authors).HasForeignKey(b => b.AuthorId);
+
+            modelBuilder.Entity<Log>().HasKey(n => n.Id); //id is unique identifier
         }
 
         //Need to define the tables names for the c# models
@@ -38,5 +40,7 @@ namespace my_books.Data
         //{
         //    object value = optionsBuilder.UseSqlServer(@"Server=(localdb)\ProjectModels;Database=RealEstateDb;");
         //}
+
+        public DbSet<Log> Logs { get; set; }
     }
 }

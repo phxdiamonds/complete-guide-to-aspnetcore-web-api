@@ -1,0 +1,14 @@
+03/01/2024 12:17:48 -07:00[Information]- Message: HTTP "GET" "/api/publishers/get-all-publishers" responded 400 in 351.7712 ms
+03/01/2024 12:18:42 -07:00[Information]- Message: HTTP "GET" "/api/publishers/get-all-publishers" responded 400 in 293.2258 ms
+03/01/2024 12:18:45 -07:00[Information]- Message: This is just a log in GetAllPublishers method
+03/01/2024 12:18:47 -07:00[Information]- Message: HTTP "GET" "/api/publishers/get-all-publishers" responded 200 in 1748.8585 ms
+03/01/2024 12:32:56 -07:00[Information]- Message: HTTP "GET" "/api/publishers/get-all-publishers" responded 400 in 295.0937 ms
+03/01/2024 12:33:22 -07:00[Information]- Message: HTTP "GET" "/api/logs/get-all-logs" responded 200 in 7190.4503 ms
+03/01/2024 12:34:43 -07:00[Information]- Message: This is just a log in GetAllPublishers method
+03/01/2024 12:34:44 -07:00[Information]- Message: HTTP "GET" "/api/publishers/get-all-publishers" responded 200 in 182.8328 ms
+03/01/2024 12:38:10 -07:00[Information]- Message: HTTP "GET" "/api/publishers/get-all-publishers" responded 400 in 205.3961 ms
+03/01/2024 12:38:27 -07:00[Information]- Message: This is just a log in GetAllPublishers method
+03/01/2024 12:38:28 -07:00[Information]- Message: HTTP "GET" "/api/publishers/get-all-publishers" responded 200 in 1136.7821 ms
+03/01/2024 12:41:54 -07:00[Information]- Message: HTTP "GET" "/api/publishers/get-all-publishers" responded 400 in 360.7598 ms
+03/01/2024 12:42:05 -07:00[Information]- Message: This is just a log in GetAllPublishers method
+03/01/2024 12:42:07 -07:00[Information]- Message: HTTP "GET" "/api/publishers/get-all-publishers" responded 200 in 1532.0752 ms

@@ -40,9 +40,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Asp.Versioning.Mvc": {
+            "Microsoft.AspNetCore.Mvc.Versioning": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[5.1.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -57,6 +57,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.2, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",

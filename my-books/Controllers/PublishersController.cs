@@ -19,10 +19,15 @@ namespace my_books.Controllers
     {
         private PublishersService _publishersService;
 
-        public PublishersController(PublishersService publisersService)
+        //inject the ilogger configuration
+
+        private readonly ILogger<PublishersController> _logger;
+
+        public PublishersController(PublishersService publisersService, ILogger<PublishersController> logger)
       
         {
             _publishersService = publisersService;
+            _logger = logger;
         }
 
         [HttpPost("add-publisher")]
@@ -125,8 +130,10 @@ namespace my_books.Controllers
 
         public IActionResult GetAllPublishers(string sortBy,string searchString,int pageNumber)
         {
+            //throw new Exception("This is an exception thrown from GetAllPublishers method");
             try
             {
+                _logger.LogInformation("This is just a log in GetAllPublishers method");
                 var _result = _publishersService.GetAllPublishers(sortBy,searchString,pageNumber);
 
                 return Ok(_result);

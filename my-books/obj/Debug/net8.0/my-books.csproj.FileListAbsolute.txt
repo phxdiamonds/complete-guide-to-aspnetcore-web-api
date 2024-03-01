@@ -5,9 +5,6 @@ C:\Learning\Ervis Trupja Asp.Net core\my-books\my-books\bin\Debug\net8.0\my-book
 C:\Learning\Ervis Trupja Asp.Net core\my-books\my-books\bin\Debug\net8.0\my-books.runtimeconfig.json
 C:\Learning\Ervis Trupja Asp.Net core\my-books\my-books\bin\Debug\net8.0\my-books.dll
 C:\Learning\Ervis Trupja Asp.Net core\my-books\my-books\bin\Debug\net8.0\my-books.pdb
-C:\Learning\Ervis Trupja Asp.Net core\my-books\my-books\bin\Debug\net8.0\Asp.Versioning.Abstractions.dll
-C:\Learning\Ervis Trupja Asp.Net core\my-books\my-books\bin\Debug\net8.0\Asp.Versioning.Http.dll
-C:\Learning\Ervis Trupja Asp.Net core\my-books\my-books\bin\Debug\net8.0\Asp.Versioning.Mvc.dll
 C:\Learning\Ervis Trupja Asp.Net core\my-books\my-books\bin\Debug\net8.0\Azure.Core.dll
 C:\Learning\Ervis Trupja Asp.Net core\my-books\my-books\bin\Debug\net8.0\Azure.Identity.dll
 C:\Learning\Ervis Trupja Asp.Net core\my-books\my-books\bin\Debug\net8.0\Humanizer.dll
@@ -139,3 +136,15 @@ C:\Learning\Ervis Trupja Asp.Net core\my-books\my-books\obj\Debug\net8.0\refint\
 C:\Learning\Ervis Trupja Asp.Net core\my-books\my-books\obj\Debug\net8.0\my-books.pdb
 C:\Learning\Ervis Trupja Asp.Net core\my-books\my-books\obj\Debug\net8.0\my-books.genruntimeconfig.cache
 C:\Learning\Ervis Trupja Asp.Net core\my-books\my-books\obj\Debug\net8.0\ref\my-books.dll
+C:\Learning\Ervis Trupja Asp.Net core\my-books\my-books\bin\Debug\net8.0\Serilog.dll
+C:\Learning\Ervis Trupja Asp.Net core\my-books\my-books\bin\Debug\net8.0\Serilog.AspNetCore.dll
+C:\Learning\Ervis Trupja Asp.Net core\my-books\my-books\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+C:\Learning\Ervis Trupja Asp.Net core\my-books\my-books\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+C:\Learning\Ervis Trupja Asp.Net core\my-books\my-books\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+C:\Learning\Ervis Trupja Asp.Net core\my-books\my-books\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+C:\Learning\Ervis Trupja Asp.Net core\my-books\my-books\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+C:\Learning\Ervis Trupja Asp.Net core\my-books\my-books\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+C:\Learning\Ervis Trupja Asp.Net core\my-books\my-books\bin\Debug\net8.0\Serilog.Sinks.File.dll
+C:\Learning\Ervis Trupja Asp.Net core\my-books\my-books\bin\Debug\net8.0\Serilog.Sinks.MSSqlServer.dll
+C:\Learning\Ervis Trupja Asp.Net core\my-books\my-books\bin\Debug\net8.0\Serilog.Sinks.PeriodicBatching.dll
+C:\Learning\Ervis Trupja Asp.Net core\my-books\my-books\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Versioning.dll

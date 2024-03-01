@@ -1,15 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "2XYzEwnuND6xyGM0mU/uM8MAuIW3kQXC0nUQkA3oGgvIc3n1sZlN6kmglO+MKawLft1FrzVjM7aL+PEp+7BXdg==",
+  "dgSpecHash": "qw/Po12POiSlcvfr2DMVq1ExVmMhUh1MdvEeO0HP5JhrxmKQT+uL6FtcfUwT6BAWFgiMN6l91s3t/w0pQvQqiw==",
   "success": true,
   "projectFilePath": "C:\\Learning\\Ervis Trupja Asp.Net core\\my-books\\my-books\\my-books.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Hemantth\\.nuget\\packages\\asp.versioning.abstractions\\8.0.0\\asp.versioning.abstractions.8.0.0.nupkg.sha512",
-    "C:\\Users\\Hemantth\\.nuget\\packages\\asp.versioning.http\\8.0.0\\asp.versioning.http.8.0.0.nupkg.sha512",
-    "C:\\Users\\Hemantth\\.nuget\\packages\\asp.versioning.mvc\\8.0.0\\asp.versioning.mvc.8.0.0.nupkg.sha512",
     "C:\\Users\\Hemantth\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Hemantth\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\Hemantth\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\Hemantth\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\5.1.0\\microsoft.aspnetcore.mvc.versioning.5.1.0.nupkg.sha512",
     "C:\\Users\\Hemantth\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\Hemantth\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3\\microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",
     "C:\\Users\\Hemantth\\.nuget\\packages\\microsoft.codeanalysis.common\\4.5.0\\microsoft.codeanalysis.common.4.5.0.nupkg.sha512",
