@@ -1,10 +1,11 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using my_books.Data.Models;
 
 namespace my_books.Data
 {
     //this is the database context which inherits from DbContext
-    public class AppDbContext : DbContext
+    public class AppDbContext : IdentityDbContext<ApplicationUser>
     {
         //this is the bridge between the c#  modelsclasses and the sql database tables
         //this is a constructor
@@ -24,6 +25,8 @@ namespace my_books.Data
             modelBuilder.Entity<Book_Author>().HasOne(b => b.Author).WithMany(ba => ba.Book_Authors).HasForeignKey(b => b.AuthorId);
 
             modelBuilder.Entity<Log>().HasKey(n => n.Id); //id is unique identifier
+
+            base.OnModelCreating(modelBuilder);
         }
 
         //Need to define the tables names for the c# models
@@ -42,5 +45,7 @@ namespace my_books.Data
         //}
 
         public DbSet<Log> Logs { get; set; }
+
+        public DbSet<RefreshToken> RefreshTokens { get; set; } //>
     }
 }

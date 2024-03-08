@@ -1,16 +1,20 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Identity.Client;
 using my_books.ActionResults;
 using my_books.Data.Models;
 using my_books.Data.Services;
 using my_books.Data.ViewModel;
+using my_books.Data.ViewModel.Authentication;
 using my_books.Exceptions;
 
 namespace my_books.Controllers
 {
+    [Authorize(Roles = UserRoles.Publisher+","+UserRoles.Admin)]
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
 
     
 

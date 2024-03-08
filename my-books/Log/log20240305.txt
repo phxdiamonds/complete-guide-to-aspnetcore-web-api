@@ -1,0 +1,2 @@
+03/05/2024 14:57:12 -07:00[Information]- Message: HTTP "GET" "/api/publishers/get-all-publishers" responded 400 in 473.5246 ms
+03/05/2024 14:59:09 -07:00[Information]- Message: HTTP "POST" "/api/Authentication/login-user" responded 401 in 2017.6906 ms
